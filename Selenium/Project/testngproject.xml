@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LMS Automation Suite" parallel="false">
+    <test name="LMS Activities Tests">
+        <classes>
+            <class name="project.activity1"/>   <!-- Verify website title -->
+            <class name="project.Activity2"/>   <!-- Verify website heading -->
+            <class name="project.Activity3"/>   <!-- Verify first info box title -->
+            <class name="project.Activity4"/>   <!-- Verify second most popular course title -->
+            <class name="project.Activity5"/>   <!-- Navigate to My Account -->
+            <class name="project.Activity6"/>   <!-- Logging into the site -->
+        </classes>
+    </test>
+</suite>
